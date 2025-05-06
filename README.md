@@ -1,44 +1,41 @@
-# Czech Real Estate Price Evaluator
+# Prague Real Estate Price
 
-This project aims to create a system for evaluating real estate prices in the Czech Republic, focusing on residential properties and apartments.
+This project aims to create a system for prediction of residential property prices in Prague.
 
 ## Project Structure
 
 - `scraper/` - Contains modules for scraping data from sreality.cz
-- `model/` - Contains modules for data processing and price prediction
-- `data/` - Directory for storing scraped data and model artifacts
-- `config/` - Configuration files and environment variables
+- `data/` - Contains modules for data processing
+- `model/` - Contains modules for price prediction
 
 ## Setup
 
-1. Create a virtual environment:
+#### 1. Create a virtual environment and install dependencies
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file in the root directory with your configuration.
-
-## Usage
-
-1. Run the scraper to collect data:
+#### 2. Run the scraper to collect data:
 ```bash
-python scraper/main.py
+cd scraper
+python main.py
 ```
 
-2. Train the model:
+#### 3. Run data processing
 ```bash
-python model/train.py
+cd data
+python main.py --method "json"
+python main.py --method "images"
 ```
 
-3. Use the model for predictions:
+
+#### 4. Train the models:
+This runs tree based models, image model and ensembles. Each stores artefacts.
 ```bash
-python model/predict.py
+cd model
+sh run.sh
 ```
 
 ## Features
@@ -51,8 +48,3 @@ python model/predict.py
 ## Data Sources
 
 - sreality.cz - Primary source of real estate listings
-- Additional sources may be added in the future
-
-## License
-
-MIT License 

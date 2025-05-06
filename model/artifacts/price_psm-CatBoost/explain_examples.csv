@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749921,7414494.445002461,0.9772401725269575
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699986,10378913.471315298,0.8208664848151027
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600004,9491292.10739473,0.6948723799830734
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000,2759241.3853569347,0.6722675062769301
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500013,7415173.11223651,0.6478114868193736
+property_2288800332_prodej_byt_3_kk_praha-praha-,mid,8473992,8977600.958729135,0.05942995446881881
+property_1387164236_prodej_byt_3_1_praha-smichov-na-plzence,mid,12889968,13667207.805039333,0.06029803992060594
+property_3109245516_prodej_byt_2_kk_praha-vinohrady-pod-karlovem,mid,11589984,12274945.29072343,0.05909941642054294
+property_602997324_prodej_byt_4_kk_praha-michle-v-doline,mid,13590048,12765191.252709989,-0.06069564635018298
+property_1431142988_prodej_byt_3_kk_praha-kbely-martinicka,mid,9990000,10578578.376599913,0.058916754414405755

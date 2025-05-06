@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10355256.86120205,0.8167117300354474
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,9890168.256502602,0.7661014743754647
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,6457494.070517492,0.7220443399870641
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7358577.778274887,0.6352395062833083
+property_3832345164_prodej_byt_2_kk_praha-vysocany-spojovaci,worst,6600000.0,10500796.486114193,0.5910297706233626
+property_1509261900_prodej_byt_2_kk_praha-hlubocepy-wassermannova,mid,8779331.0,9334108.12473297,0.0631912755918383
+property_3095220812_prodej_byt_4_kk_praha-kobylisy-vrsni,mid,10999900.0,10308764.086953629,-0.06283110874156776
+property_67592780_prodej_byt_2_kk_praha-hlubocepy-kurandove,mid,8600000.0,9144438.60487662,0.0633068145205373
+property_3334935116_prodej_byt_3_kk_praha-vinor-,mid,10987000.0,11682579.013076875,0.06330927578746476
+property_1177989708_prodej_byt_2_kk_praha-jinonice-reporyjska,mid,9290700.0,9872109.581896998,0.06257973908284607

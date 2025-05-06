@@ -1,0 +1,116 @@
+
+        <html>
+        <head>
+        <meta charset="utf-8">
+        <title>Lasso Model Report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        </head>
+        <body class="bg-light">
+        <div class="container py-4">
+            <h1 class="mb-4">Lasso Model Report</h1>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">Best Parameters</div>
+                        <div class="card-body"><pre>{
+  "reg__alpha": 0.1
+}</pre></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">Test Metrics</div>
+                        <ul class="list-group list-group-flush"><li class="list-group-item"><b>RMSE:</b> 1730845.3784</li><li class="list-group-item"><b>MAPE:</b> 0.1531</li><li class="list-group-item"><b>MAE:</b> 1349288.5389</li><li class="list-group-item"><b>Median_AE:</b> 1101046.9719</li></ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-3">Artifacts</h2>
+            <div class="d-flex flex-column align-items-center"><div class="mb-4"><img src="explain_residuals.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_segments.png" class="img-fluid rounded shadow d-block mx-auto"></div></div>
+            <h2 class="mt-4">Extreme and Mid Errors</h2>
+            <table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>type</th>
+      <th>true_price</th>
+      <th>pred_price</th>
+      <th>pct_diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu</td>
+      <td>worst</td>
+      <td>1,650,000.00</td>
+      <td>4,245,740.86</td>
+      <td>1.57</td>
+    </tr>
+    <tr>
+      <td>property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska</td>
+      <td>worst</td>
+      <td>3,749,900.00</td>
+      <td>8,350,655.88</td>
+      <td>1.23</td>
+    </tr>
+    <tr>
+      <td>property_1078096460_prodej_byt_1_1_praha-liben-</td>
+      <td>worst</td>
+      <td>4,500,000.00</td>
+      <td>7,783,443.80</td>
+      <td>0.73</td>
+    </tr>
+    <tr>
+      <td>property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach</td>
+      <td>worst</td>
+      <td>5,700,000.00</td>
+      <td>9,787,708.99</td>
+      <td>0.72</td>
+    </tr>
+    <tr>
+      <td>property_3299832396_prodej_byt_1_kk_praha-vysocany-vysocanske-namesti</td>
+      <td>worst</td>
+      <td>3,690,000.00</td>
+      <td>5,691,161.63</td>
+      <td>0.54</td>
+    </tr>
+    <tr>
+      <td>property_617243212_prodej_byt_2_kk_praha-liben-chlumcanskeho</td>
+      <td>mid</td>
+      <td>5,740,000.00</td>
+      <td>6,512,195.52</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>property_2288800332_prodej_byt_3_kk_praha-praha-</td>
+      <td>mid</td>
+      <td>8,474,000.00</td>
+      <td>9,625,487.90</td>
+      <td>0.14</td>
+    </tr>
+    <tr>
+      <td>property_1296761420_prodej_byt_4_1_praha-hloubetin-rochovska</td>
+      <td>mid</td>
+      <td>9,637,590.00</td>
+      <td>10,932,205.72</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>property_4189672012_prodej_byt_3_kk_praha-horni-mecholupy-mantovska</td>
+      <td>mid</td>
+      <td>14,890,000.00</td>
+      <td>12,892,083.82</td>
+      <td>-0.13</td>
+    </tr>
+    <tr>
+      <td>property_1251955276_prodej_byt_1_1_praha-zizkov-sladkovskeho-namesti</td>
+      <td>mid</td>
+      <td>5,999,000.00</td>
+      <td>6,819,689.53</td>
+      <td>0.14</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

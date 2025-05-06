@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699985.999999999,10688876.71875,0.8752461354729646
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600004.000000002,9904317.9375,0.7686269398200424
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749921.000000001,6399829.515625,0.7066571577441227
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500012.999999996,7137203.71875,0.5860406889380111
+property_3832345164_prodej_byt_2_kk_praha-vysocany-spojovaci,worst,6599999.999999997,10104368.75,0.5309649621212128
+property_3862061644_prodej_byt_1_1_praha-stare-mesto-u-obecniho-dvora,mid,9890016.000000002,9257013.75,-0.0640041684462393
+property_2633303372_prodej_byt_2_kk_praha-smichov-na-laurove,mid,10090025.000000007,9444904.21875,-0.0639364898749019
+property_259465804_prodej_byt_1_kk_praha-kosire-starokosirska,mid,7950004.999999997,8451732.078125,0.06311028460045032
+property_3129369164_prodej_byt_1_kk_praha-praha-peroutkova,mid,4050001.0000000033,4312650.578125,0.06485173167241108
+property_2276815436_prodej_byt_2_kk_praha-strasnice-rembrandtova,mid,5950000.0,5574848.75,-0.06305063025210084

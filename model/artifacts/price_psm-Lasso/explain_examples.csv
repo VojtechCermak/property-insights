@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749921,7228455.345161503,0.9276287007543634
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000,2964964.1369607444,0.7969479617943905
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699986,9976329.577963758,0.7502375581209776
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600004,9614246.36523348,0.716828481771349
+property_2586669644_prodej_byt_2_kk_praha-michle-u-michelskeho-mlyna,worst,10265015,16584992.895276835,0.6156813112573957
+property_3080331852_prodej_byt_3_kk_praha-chodov-komarkova,mid,13597583,12677603.003924053,-0.06765761209738134
+property_3095220812_prodej_byt_4_kk_praha-kobylisy-vrsni,mid,10999872,10254820.476406282,-0.06773274485318721
+property_1043411532_prodej_byt_1_kk_praha-vinohrady-balbinova,mid,5490000,5862245.402348548,0.06780426272286852
+property_1032942156_prodej_byt_2_kk_praha-brevnov-ve-stresovickach,mid,9750000,9087991.294561172,-0.06789832876295673
+property_3758821964_prodej_byt_4_1_praha-liben-cihakova,mid,11499957,12275178.304232156,0.06741080025187537

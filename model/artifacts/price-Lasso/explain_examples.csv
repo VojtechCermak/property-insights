@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,7334996.609335598,0.9560512571896844
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10094023.49816616,0.7708813154677475
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000.0,419214.4574218765,-0.7459306318655294
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7496142.292572435,0.66580939834943
+property_2099716684_prodej_byt_2_1_praha-praha-zenklova,worst,5500000.0,1980475.2460945537,-0.639913591619172
+property_1343357516_prodej_byt_2_kk_praha-branik-vlnita,mid,12990000.0,11916422.824418891,-0.08264643383996219
+property_3373486668_prodej_byt_1_kk_praha-stodulky-kodymova,mid,6390000.0,5860209.457518546,-0.08290931807221504
+property_3803046476_prodej_byt_3_kk_praha-strizkov-strizkovska,mid,9800000.0,10617664.473372912,0.0834351503441747
+property_1707065932_prodej_byt_2_kk_praha-smichov-strakonicka,mid,12995000.0,11931230.067354802,-0.08185994094999599
+property_1617056332_prodej_byt_1_1_praha-krc-sturova,mid,4690000.0,5082739.697717475,0.08373980761566627

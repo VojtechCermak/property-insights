@@ -1,0 +1,16 @@
+{
+  "oof_rmse": 1087240.6906186985,
+  "test_rmse": 1080320.6984622285,
+  "test_mae": 736391.2337600986,
+  "test_mape": 0.0832749753183786,
+  "models": [
+    "price-Lasso",
+    "lognorm_price_psm-CatBoost",
+    "lognorm_price-CatBoost",
+    "price-CatBoost",
+    "price_psm-Ridge",
+    "image_dense",
+    "lognorm_price-XGBoost",
+    "price-XGBoost"
+  ]
+}

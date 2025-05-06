@@ -1,0 +1,116 @@
+
+        <html>
+        <head>
+        <meta charset="utf-8">
+        <title>Ridge Model Report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        </head>
+        <body class="bg-light">
+        <div class="container py-4">
+            <h1 class="mb-4">Ridge Model Report</h1>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">Best Parameters</div>
+                        <div class="card-body"><pre>{
+  "reg__alpha": 4.0
+}</pre></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">Test Metrics</div>
+                        <ul class="list-group list-group-flush"><li class="list-group-item"><b>RMSE:</b> 1200801.9274</li><li class="list-group-item"><b>MAPE:</b> 0.0914</li><li class="list-group-item"><b>MAE:</b> 821682.7530</li><li class="list-group-item"><b>Median_AE:</b> 561031.9087</li></ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-3">Artifacts</h2>
+            <div class="d-flex flex-column align-items-center"><div class="mb-4"><img src="explain_residuals.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_segments.png" class="img-fluid rounded shadow d-block mx-auto"></div></div>
+            <h2 class="mt-4">Extreme and Mid Errors</h2>
+            <table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>type</th>
+      <th>true_price</th>
+      <th>pred_price</th>
+      <th>pct_diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska</td>
+      <td>worst</td>
+      <td>3,749,900.00</td>
+      <td>7,175,624.90</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <td>property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu</td>
+      <td>worst</td>
+      <td>1,650,000.00</td>
+      <td>3,067,941.30</td>
+      <td>0.86</td>
+    </tr>
+    <tr>
+      <td>property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka</td>
+      <td>worst</td>
+      <td>5,600,000.00</td>
+      <td>9,444,110.67</td>
+      <td>0.69</td>
+    </tr>
+    <tr>
+      <td>property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach</td>
+      <td>worst</td>
+      <td>5,700,000.00</td>
+      <td>9,285,802.05</td>
+      <td>0.63</td>
+    </tr>
+    <tr>
+      <td>property_1078096460_prodej_byt_1_1_praha-liben-</td>
+      <td>worst</td>
+      <td>4,500,000.00</td>
+      <td>7,144,636.32</td>
+      <td>0.59</td>
+    </tr>
+    <tr>
+      <td>property_3771896396_prodej_byt_3_kk_praha-vinohrady-korunni</td>
+      <td>mid</td>
+      <td>15,314,000.00</td>
+      <td>14,266,137.93</td>
+      <td>-0.07</td>
+    </tr>
+    <tr>
+      <td>property_2625073740_prodej_byt_1_kk_praha-nove-mesto-washingtonova</td>
+      <td>mid</td>
+      <td>9,900,000.00</td>
+      <td>9,225,860.14</td>
+      <td>-0.07</td>
+    </tr>
+    <tr>
+      <td>property_3537457740_prodej_byt_2_kk_praha-vysocany-podebradska</td>
+      <td>mid</td>
+      <td>6,990,000.00</td>
+      <td>7,469,524.60</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>property_3445592652_prodej_byt_3_1_praha-ruzyne-stochovska</td>
+      <td>mid</td>
+      <td>8,200,000.00</td>
+      <td>7,636,874.51</td>
+      <td>-0.07</td>
+    </tr>
+    <tr>
+      <td>property_3859112524_prodej_byt_2_kk_praha-liben-strizkovska</td>
+      <td>mid</td>
+      <td>6,990,000.00</td>
+      <td>6,505,819.51</td>
+      <td>-0.07</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

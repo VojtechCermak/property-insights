@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,8374894.379002025,1.2333647241265169
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,10316340.78624471,0.8422037118294127
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,8124772.471449593,0.8055049936554651
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10277774.815060858,0.803118388607168
+property_1874420300_prodej_byt_1_kk_praha-vysocany-kolma,worst,3772000.0,1828960.048882382,-0.5151219382602381
+property_3332919884_prodej_byt_3_1_praha-vrsovice-namesti-svatopluka-cecha,mid,8900000.0,9646341.510924242,0.08385859673306095
+property_2286834252_prodej_byt_2_kk_praha-chodov-ceneticka,mid,4838000.0,5241787.827349111,0.08346172537187091
+property_912749132_prodej_byt_1_kk_praha-nusle-muzikova,mid,9200000.0,8428478.956932371,-0.08386098294213354
+property_3901379148_prodej_byt_2_kk_praha-kbely-herlikovicka,mid,7190000.0,7788933.427334625,0.0833008939269298
+property_348287564_prodej_byt_2_kk_praha-michle-magistru,mid,10598000.0,9715471.468973055,-0.08327312049697533

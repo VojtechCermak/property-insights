@@ -1,0 +1,120 @@
+
+        <html>
+        <head>
+        <meta charset="utf-8">
+        <title>XGBoost Model Report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        </head>
+        <body class="bg-light">
+        <div class="container py-4">
+            <h1 class="mb-4">XGBoost Model Report</h1>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">Best Parameters</div>
+                        <div class="card-body"><pre>{
+  "reg__subsample": 0.6,
+  "reg__n_estimators": 300,
+  "reg__max_depth": 5,
+  "reg__learning_rate": 0.05,
+  "reg__colsample_bytree": 0.8
+}</pre></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">Test Metrics</div>
+                        <ul class="list-group list-group-flush"><li class="list-group-item"><b>RMSE:</b> 1148081.3927</li><li class="list-group-item"><b>MAPE:</b> 0.0913</li><li class="list-group-item"><b>MAE:</b> 799471.8387</li><li class="list-group-item"><b>Median_AE:</b> 536018.8359</li></ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-3">Artifacts</h2>
+            <div class="d-flex flex-column align-items-center"><div class="mb-4"><img src="explain_importance.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_residuals.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_segments.png" class="img-fluid rounded shadow d-block mx-auto"></div></div>
+            <h2 class="mt-4">Extreme and Mid Errors</h2>
+            <table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>type</th>
+      <th>true_price</th>
+      <th>pred_price</th>
+      <th>pct_diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska</td>
+      <td>worst</td>
+      <td>3749921</td>
+      <td>6,686,433.58</td>
+      <td>0.78</td>
+    </tr>
+    <tr>
+      <td>property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach</td>
+      <td>worst</td>
+      <td>5699986</td>
+      <td>10,085,698.25</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <td>property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka</td>
+      <td>worst</td>
+      <td>5600004</td>
+      <td>9,661,247.95</td>
+      <td>0.73</td>
+    </tr>
+    <tr>
+      <td>property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu</td>
+      <td>worst</td>
+      <td>1650000</td>
+      <td>2,676,099.38</td>
+      <td>0.62</td>
+    </tr>
+    <tr>
+      <td>property_3832345164_prodej_byt_2_kk_praha-vysocany-spojovaci</td>
+      <td>worst</td>
+      <td>6600000</td>
+      <td>10,644,054.69</td>
+      <td>0.61</td>
+    </tr>
+    <tr>
+      <td>property_4064502348_prodej_byt_1_kk_praha-vysocany-fafkovych</td>
+      <td>mid</td>
+      <td>6380010</td>
+      <td>6,779,773.56</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <td>property_386167372_prodej_byt_1_kk_praha-trebonice-do-zahradek-i</td>
+      <td>mid</td>
+      <td>5949990</td>
+      <td>5,577,287.34</td>
+      <td>-0.06</td>
+    </tr>
+    <tr>
+      <td>property_1387164236_prodej_byt_3_1_praha-smichov-na-plzence</td>
+      <td>mid</td>
+      <td>12889968</td>
+      <td>13,696,850.38</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <td>property_3504169548_prodej_byt_2_1_praha-veleslavin-na-petrinach</td>
+      <td>mid</td>
+      <td>6989976</td>
+      <td>7,427,471.62</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <td>property_3519882572_prodej_byt_4_kk_praha-nove-mesto-sokolska</td>
+      <td>mid</td>
+      <td>13990014</td>
+      <td>13,117,907.62</td>
+      <td>-0.06</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

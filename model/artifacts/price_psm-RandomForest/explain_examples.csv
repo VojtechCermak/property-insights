@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749921,7620522.385,1.0321821139698675
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000,3165765.2624999997,0.9186456136363634
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699986,10751464.295312501,0.8862264390320435
+property_1320358476_prodej_byt_4_kk_praha-repy-makovskeho,worst,7790029,12963450.62125,0.664108133775882
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500013,7327855.712770835,0.6284076763268983
+property_259465804_prodej_byt_1_kk_praha-kosire-starokosirska,mid,7950005,8456645.7675,0.06372835834694444
+property_745759308_prodej_byt_3_kk_praha-hlubocepy-silurska,mid,11840976,11084136.465154946,-0.06391698917767033
+property_1378574924_prodej_byt_3_1_praha-dejvice-eliasova,mid,13899965,13009755.43125,-0.06404401512881505
+property_1868374604_prodej_byt_3_1_praha-modrany-madrova,mid,8149977,8674789.87125,0.06439439905781327
+property_117002828_prodej_byt_2_1_praha-horni-pocernice-dandova,mid,8950020,8384713.350000001,-0.06316261304444006

@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000.0,4405105.549,1.6697609387878787
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,8281735.3575,1.2085216559108243
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10410126.16875,0.8263379243421052
+property_1320358476_prodej_byt_4_kk_praha-repy-makovskeho,worst,7790000.0,13200651.195,0.6945636964056483
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7487649.11,0.6639220244444445
+property_3095220812_prodej_byt_4_kk_praha-kobylisy-vrsni,mid,10999900.0,10230112.9575,-0.06998127642069478
+property_2344907852_prodej_byt_2_kk_praha-stodulky-amforova,mid,6280000.0,6717282.707159091,0.06963100432469599
+property_1252536908_prodej_byt_2_1_praha-strasnice-v-uzlabine,mid,6890000.0,7369501.94,0.06959389550072576
+property_544961100_prodej_byt_4_1_praha-smichov-pod-lipkami,mid,12500000.0,13367519.23125,0.06940153849999994
+property_2984137292_prodej_byt_3_kk_praha-karlin-za-invalidovnou,mid,13749792.0,12783020.43,-0.07031172326097736

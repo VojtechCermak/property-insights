@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,7518070.411769243,1.0048722397315244
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,9934173.292778304,0.7739595165675542
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10018767.225636024,0.7576784606378989
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7470544.07991107,0.6601209066469045
+property_1874420300_prodej_byt_1_kk_praha-vysocany-kolma,worst,3772000.0,1544490.223360261,-0.5905381168185947
+property_1711374924_prodej_byt_2_kk_praha-hrdlorezy-ucnovska,mid,8800000.0,8115847.664578711,-0.07774458357060106
+property_2283930188_prodej_byt_2_1_praha-karlin-sokolovska,mid,9490000.0,8758194.844957782,-0.07711329347125585
+property_923886156_prodej_byt_3_kk_praha-zizkov-zerotinova,mid,12374000.0,11409829.148885025,-0.0779190925420216
+property_2065531468_prodej_byt_3_kk_praha-hloubetin-waltariho,mid,12908280.0,11898102.920963984,-0.07825806993929602
+property_1778868812_prodej_byt_1_kk_praha-hlubocepy-kurandove,mid,6200000.0,6685514.132382765,0.07830873102947829

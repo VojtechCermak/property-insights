@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1649999.9999999995,3376897.2,1.0466043939393945
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699999.999999996,10428602.0,0.8295792982456153
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.000000004,9993629.0,0.7845766071428559
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0000000023,6465091.5,0.7240703752100045
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,6944244.5,0.5431654444444445
+property_1545278028_prodej_byt_4_kk_praha-letnany-skrabkovych,mid,14900000.000000017,14040178.0,-0.057706174496645356
+property_3080331852_prodej_byt_3_kk_praha-chodov-komarkova,mid,13597578.000000013,12823510.0,-0.05692690271752898
+property_183661132_prodej_byt_2_kk_praha-michle-magistru,mid,8398000.000000002,8875507.0,0.056859609430816624
+property_182280780_prodej_byt_4_kk_praha-dejvice-v-podbabe,mid,14199999.999999993,13375887.0,-0.058036126760562884
+property_2557694540_prodej_byt_1_kk_praha-hloubetin-mochovska,mid,5699999.999999996,6020802.5,0.05628114035087788

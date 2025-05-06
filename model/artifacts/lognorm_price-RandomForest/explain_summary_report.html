@@ -1,0 +1,118 @@
+
+        <html>
+        <head>
+        <meta charset="utf-8">
+        <title>RandomForest Model Report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        </head>
+        <body class="bg-light">
+        <div class="container py-4">
+            <h1 class="mb-4">RandomForest Model Report</h1>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">Best Parameters</div>
+                        <div class="card-body"><pre>{
+  "reg__n_estimators": 300,
+  "reg__min_samples_split": 2,
+  "reg__max_depth": null
+}</pre></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">Test Metrics</div>
+                        <ul class="list-group list-group-flush"><li class="list-group-item"><b>RMSE:</b> 1288846.7261</li><li class="list-group-item"><b>MAPE:</b> 0.1036</li><li class="list-group-item"><b>MAE:</b> 899023.8118</li><li class="list-group-item"><b>Median_AE:</b> 574309.9977</li></ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-3">Artifacts</h2>
+            <div class="d-flex flex-column align-items-center"><div class="mb-4"><img src="explain_importance.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_residuals.png" class="img-fluid rounded shadow d-block mx-auto"></div><div class="mb-4"><img src="explain_segments.png" class="img-fluid rounded shadow d-block mx-auto"></div></div>
+            <h2 class="mt-4">Extreme and Mid Errors</h2>
+            <table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>type</th>
+      <th>true_price</th>
+      <th>pred_price</th>
+      <th>pct_diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu</td>
+      <td>worst</td>
+      <td>1,650,000.00</td>
+      <td>4,227,834.79</td>
+      <td>1.56</td>
+    </tr>
+    <tr>
+      <td>property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska</td>
+      <td>worst</td>
+      <td>3,749,900.00</td>
+      <td>7,764,632.31</td>
+      <td>1.07</td>
+    </tr>
+    <tr>
+      <td>property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach</td>
+      <td>worst</td>
+      <td>5,700,000.00</td>
+      <td>10,363,392.21</td>
+      <td>0.82</td>
+    </tr>
+    <tr>
+      <td>property_1320358476_prodej_byt_4_kk_praha-repy-makovskeho</td>
+      <td>worst</td>
+      <td>7,790,000.00</td>
+      <td>13,147,595.06</td>
+      <td>0.69</td>
+    </tr>
+    <tr>
+      <td>property_1078096460_prodej_byt_1_1_praha-liben-</td>
+      <td>worst</td>
+      <td>4,500,000.00</td>
+      <td>7,237,606.99</td>
+      <td>0.61</td>
+    </tr>
+    <tr>
+      <td>property_1345323596_prodej_byt_1_kk_praha-hostivar-vajdova</td>
+      <td>mid</td>
+      <td>4,800,000.00</td>
+      <td>5,118,610.86</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>property_417796684_prodej_byt_2_kk_praha-stodulky-marova</td>
+      <td>mid</td>
+      <td>9,290,000.00</td>
+      <td>9,908,494.04</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>property_844587596_prodej_byt_1_kk_praha-smichov-pavla-svandy-ze-semcic</td>
+      <td>mid</td>
+      <td>8,890,000.00</td>
+      <td>8,301,555.62</td>
+      <td>-0.07</td>
+    </tr>
+    <tr>
+      <td>property_4266615372_prodej_byt_3_kk_praha-zbraslav-sulova</td>
+      <td>mid</td>
+      <td>11,500,000.00</td>
+      <td>10,743,905.40</td>
+      <td>-0.07</td>
+    </tr>
+    <tr>
+      <td>property_3344912972_prodej_byt_1_kk_praha-praha-</td>
+      <td>mid</td>
+      <td>5,690,000.00</td>
+      <td>6,072,702.60</td>
+      <td>0.07</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10279456.917557884,0.8034134943084007
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,6695396.729315488,0.7854867407972179
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,9378890.942705562,0.6748019540545647
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000.0,2672496.1033147066,0.6196946080695191
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7270436.72594065,0.6156526057645889
+property_3709039180_prodej_byt_3_kk_praha-letnany-tupolevova,mid,10847200.0,10248211.321295032,-0.0552205803068965
+property_2172322380_prodej_byt_2_kk_praha-chodov-dunovskeho,mid,9542000.0,9015412.747315556,-0.055186255783320495
+property_3445592652_prodej_byt_3_1_praha-ruzyne-stochovska,mid,8200000.0,7744960.939229688,-0.055492568386623455
+property_1793286732_prodej_byt_2_kk_praha-brevnov-slikova,mid,9490000.0,8962679.871740453,-0.05556587231396702
+property_936911436_prodej_byt_1_kk_praha-strizkov-decinska,mid,3900000.0,3686455.533635012,-0.05475499137563798

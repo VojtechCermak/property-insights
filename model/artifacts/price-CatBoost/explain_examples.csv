@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000.0,3578140.4494522046,1.1685699693649725
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10394838.453117995,0.8236558689680692
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,6752919.855152538,0.8008266500846791
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,9608452.58305129,0.7157951041163019
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7189917.500143297,0.5977594444762883
+property_4136469068_prodej_byt_2_kk_praha-nove-mesto-klimentska,mid,9700000.0,10256227.166138327,0.0573430068183842
+property_2702885452_prodej_byt_2_kk_praha-zizkov-olgy-havlove,mid,9197000.0,8669912.392602436,-0.05731081954958832
+property_2614559308_prodej_byt_3_kk_praha-hostivar-chudenicka,mid,8290000.0,7814564.980056086,-0.057350424601195944
+property_3331990092_prodej_byt_2_kk_praha-chodov-komarkova,mid,9832459.0,9269049.132357905,-0.05730101367746312
+property_56021580_prodej_byt_3_kk_praha-liben-heydukova,mid,12048000.0,11355497.452810032,-0.05747863107486452

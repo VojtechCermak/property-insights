@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600000.0,9967682.0,0.7799432142857143
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5700000.0,10040455.0,0.7614833333333333
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000.0,2839818.0,0.7211018181818182
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749900.0,6313767.0,0.6837160990959759
+property_1078096460_prodej_byt_1_1_praha-liben-,worst,4500000.0,7054739.0,0.5677197777777778
+property_1345323596_prodej_byt_1_kk_praha-hostivar-vajdova,mid,4800000.0,5092218.0,0.06087875
+property_1976357452_prodej_byt_1_kk_praha-hostivar-hornomecholupska,mid,4295000.0,4557714.0,0.0611674039580908
+property_1729630796_prodej_byt_3_1_praha-praha-svehlova,mid,8990000.0,8439692.0,-0.06121334816462736
+property_3217039948_prodej_byt_3_kk_praha-zizkov-prokopovo-namesti,mid,10990000.0,11658265.0,0.0608066424021838
+property_2214634060_prodej_byt_2_kk_praha-bohnice-v-zamcich,mid,8690000.0,9216390.0,0.06057422324510932

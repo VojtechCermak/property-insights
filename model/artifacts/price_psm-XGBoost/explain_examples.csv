@@ -1,0 +1,11 @@
+id,type,true_price,pred_price,pct_diff
+property_1337124172_prodej_byt_1_1_praha-brevnov-belohorska,worst,3749921,6686433.578125,0.7830865178559762
+property_2897543756_prodej_byt_1_kk_praha-dolni-mecholupy-v-osikach,worst,5699986,10085698.25,0.7694250915704004
+property_3858264652_prodej_byt_2_kk_praha-strasnice-cernokostelecka,worst,5600004,9661247.953125,0.7252216164711668
+property_961372748_prodej_byt_1_kk_praha-bubenec-jugoslavskych-partyzanu,worst,1650000,2676099.375,0.6218784090909091
+property_3832345164_prodej_byt_2_kk_praha-vysocany-spojovaci,worst,6600000,10644054.6875,0.6127355587121213
+property_4064502348_prodej_byt_1_kk_praha-vysocany-fafkovych,mid,6380010,6779773.5625,0.06265876738437715
+property_386167372_prodej_byt_1_kk_praha-trebonice-do-zahradek-i,mid,5949990,5577287.34375,-0.06263920716673474
+property_1387164236_prodej_byt_3_1_praha-smichov-na-plzence,mid,12889968,13696850.375,0.06259770194929887
+property_3504169548_prodej_byt_2_1_praha-veleslavin-na-petrinach,mid,6989976,7427471.625,0.06258900245151057
+property_3519882572_prodej_byt_4_kk_praha-nove-mesto-sokolska,mid,13990014,13117907.625,-0.0623377771458985

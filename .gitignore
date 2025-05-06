@@ -1,0 +1,13 @@
+*.joblib
+/scraper/data
+*/__pycache__
+*/.ipynb_checkpoints
+*/.DS_Store
+*/.venv
+*/.pytest_cache
+*/.mypy_cache
+*/.ruff_cache
+*/catboost_info
+*/logs
+test_models.ipynb
+/venv
